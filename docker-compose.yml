@@ -11,7 +11,7 @@ services:
     build: flask-app/
     
     # connect the src folder in on the host machine to the code folder in the container. 
-    # note that the code folder in contaier is the working directory (see DockerFile).
+    # note that the code folder in container is the working directory (see DockerFile).
     volumes: ['./flask-app:/code', './secrets:/secrets'] 
 
     # have the container restart if it fails for some reason. 
@@ -19,7 +19,7 @@ services:
 
     # map host port 8001 to container port 4000 (see the EXPOSE command in api/Dockerfile)
     ports:
-      - "8001:4000"
+      - "9000:4000"
 
     links:
       - db

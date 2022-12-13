@@ -2,12 +2,17 @@
 # Main application interface
 ###
 
+
 # import the create app function 
 # that lives in src/__init__.py
 from src import create_app
 
 # create the app object
 app = create_app()
+
+@app.route("/")
+def home():
+    return f'<h1>Hello World</h1>'
 
 if __name__ == '__main__':
     # we want to run in debug mode (for hot reloading) 
