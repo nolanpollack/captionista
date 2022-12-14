@@ -8,7 +8,7 @@ This repo contains a boilerplate setup for spinning up 2 docker containers:
 Captionista is intended to be a platform where users can upload captions for certain tags, or upload photos and have captions suggested.
 
 ## Demonstration
-
+https://github.com/nolanpollack/captionista/blob/9d0552e95e648c1608a581aa62c1b4b2bf36c1ab/overview.mp4
 
 ## How to setup and start the containers
 
